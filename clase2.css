@@ -34,7 +34,21 @@
   	font-family:hola;
   	font-size: 50px;
 }
+.a5{
+  	position: absolute;
+  	top: 80%;
+  	left: 10%;
+  	width: 20%;
+  	height: 15%;
+  	font-family: hola;
+  	font-size: 35px;
+  	transition: width 2s;
+}
 @font-face{
 	font-family: hola;
 	src: url(fu1.ttf);
+}
+a{
+	text-decoration: none;
+	color: black;
 }
