@@ -1,0 +1,40 @@
+.a1{
+	position: absolute;
+  	top: 2%;
+  	left: 1%;
+  	width: 97%; 
+  	height: 110%; 
+	border: 5px solid black; 
+  	border-radius: 4%;
+  	background-image: radial-gradient( circle,  #87CEFA 30%, #1E90FF );
+}
+.a2{
+	position: absolute;
+	top: 10%;
+	left: 35%;
+	background-image: url(animacion.gif);
+	width: 59%;
+	height: 96%;
+	border: solid black 5px;
+	transition: width 2s, height 2s, transform 2s;
+}
+.a3{
+	position: absolute;
+	text-shadow: 2px 3px 1px #6495ED;
+  	top: 30%;
+  	left: 3%;
+  	font-family:hola;
+  	font-size: 45px;
+}
+.a4{
+	position: absolute;
+	text-shadow: 2px 3px 1px #6495ED;
+  	top: 50%;
+  	left: 3%;
+  	font-family:hola;
+  	font-size: 50px;
+}
+@font-face{
+	font-family: hola;
+	src: url(fu1.ttf);
+}
